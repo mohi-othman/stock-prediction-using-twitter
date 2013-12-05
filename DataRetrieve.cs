@@ -1,4 +1,4 @@
-﻿using System;
+ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
@@ -21,16 +21,11 @@ namespace GradProject
 {
     public class DataRetrieve
     {
-        //static string _accessToken = "309149814-5SyFW2JRxsLOVV6VeVFwUSAaCzy0nT1Jd6538U4M";
-        //static string _accessTokenSecret = "Ji6qj4j1ZcovSFuB7vyHh5Xj4Po3chaZBZnSoqxkaZZSS";
-        //static string _consumerKey = "DoPMUtT1KloQZBraSXRl8A";
-        //static string _consumerSecret = "YszyFvYcbRsYvj0I6yxcdPqTnXDvgFUON7xkAkOJsE";
-
-        static string _accessToken = "859478623-Mo0iSaM0lTVxOS2zSoKJhRrjrlk4VonbXQkifIU7";
-        static string _accessTokenSecret = "xhZEoiSOvc3iJb1IVKEQQ5Oh9VgxdN8WcUQ5on39PlYDt";
-        static string _consumerKey = "rnu08lNy7HM6zNkVJjLYQ";
-        static string _consumerSecret = "nRT2us0XW6s1a1M61O0HMZIfuClawDMlfzV2xCA6mU";
-        static string api_key = "8dgtSKjkQVuPuVzUiT2E9nfVs8";
+        static string _accessToken = "";
+        static string _accessTokenSecret = "";
+        static string _consumerKey = "";
+        static string _consumerSecret = "";
+        static string api_key = "";
         static string _sqlConnection = "Data Source=C:\\GradProject\\GradProject\\GradProject\\TweetStock.sdf;";
         static int _limit = 2000;
 
